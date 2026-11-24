@@ -12,3 +12,9 @@
   passaram. Chromium conferiu desktop e 375 px, busca, filtros, rotas de
   episódio e cena, mídias, VTT, problemas, histórico e links de revisão.
   Roteiros e mídias de teste ficaram em arquivos temporários.
+- GitHub · Push de `648cc8c` confirmado em `preview`.
+  [Testes no Actions](https://github.com/Ric-lab/ExpliCaF-/actions/runs/45418818775)
+  passaram. O [deploy](https://github.com/Ric-lab/ExpliCaF-/actions/runs/45418818749)
+  parou em `configure-pages` com `Not Found`. A configuração
+  administrativa continua pendente. A API de abertura de PR retornou
+  `Forbidden`; a branch de trabalho está disponível no GitHub.

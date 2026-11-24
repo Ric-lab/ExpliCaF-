@@ -21,7 +21,7 @@ desejada. No GitHub, em **Settings → Pages → Build and deployment**, selecio
 `github-pages` para aceitar deploy somente de `preview`, se a configuração
 estiver disponível. Se o plano exigir mudança paga, mantenha a prévia pendente.
 
-O workflow **Prévia no GitHub Pages** testa e publica apenas `preview/` após
+O workflow **Prévia no GitHub Pages** valida e publica o painel montado com os arquivos públicos após
 um push em `preview`. Também pode ser executado manualmente selecionando
 `preview`. Confirme a execução em **Actions** e abra o endereço fixo para
 validar a página servida.

@@ -16,9 +16,13 @@ a decisão sobre um piloto curto. Antes de implementar, consulte a
 [proposta de decisão](decisions/003-producao-audiovisual.md) e registre a
 aprovação. A pesquisa e o piloto são independentes de EF-004 e EF-005.
 
-EF-002 segue pendente de configuração administrativa. Consulte a
-[skill de integração](skills/integracao.md) para retomar a prévia.
+A [central de produção](producao/central.md) está pronta para conferência.
+EF-002 aguarda a configuração administrativa do GitHub Pages. Assim que
+a fonte estiver configurada, reexecute o deploy de `preview` e valide o
+endereço fixo com os passos da central.
 
 [Registro da entrega editorial](handoffs/2026-11-24-identidade-editorial.md)
 
 [Registro da pesquisa audiovisual](handoffs/2026-11-24-pesquisa-audiovisual.md)
+
+[Registro da central de produção](handoffs/2026-11-24-central-producao.md)

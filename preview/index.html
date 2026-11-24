@@ -3,12 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ExplicaFé · Prévia</title>
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; media-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>ExplicaFé | Central de produção</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script type="module" src="painel.js"></script>
 </head>
 <body>
-  <main>
-    <h1>ExplicaFé</h1>
-    <p>Prévia da base colaborativa do projeto.</p>
+  <a class="pular" href="#conteudo">Ir para o conteúdo</a>
+  <header class="topo">
+    <div class="marca"><span class="marca-icone" aria-hidden="true">✦</span><h1>ExplicaFé</h1></div>
+    <nav aria-label="Seções do painel">
+      <a href="#episodios" id="menu-episodios">Episódios</a>
+      <a href="#tarefas" id="menu-tarefas">Tarefas</a>
+    </nav>
+    <a class="repo" href="https://github.com/Ric-lab/ExpliCaF-">GitHub</a>
+  </header>
+  <main id="conteudo" tabindex="-1">
+    <div class="abertura">
+      <h2>Central de produção</h2>
+      <p>Acompanhe a série e revise os materiais de cada episódio.</p>
+    </div>
+    <div id="aplicativo" aria-busy="true"><p role="status">Carregando dados da produção…</p></div>
+    <footer id="versao"></footer>
   </main>
 </body>
 </html>

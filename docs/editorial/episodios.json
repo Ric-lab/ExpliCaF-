@@ -1,0 +1,94 @@
+{
+  "episodios": [
+    {
+      "id": "EP-01",
+      "titulo": "A criação do mundo",
+      "referencias": [
+        "Gn 1,1–2,4a"
+      ],
+      "foco": "Organização do relato, imagem de Deus e repouso do sétimo dia. Localizar a transição literária em Gn 2.",
+      "continuidade": "A criação da humanidade abre o foco sobre o jardim e as escolhas humanas.",
+      "status": "planejado",
+      "revisao": null,
+      "materiais": [],
+      "cenas": [],
+      "problemas": [],
+      "historico": []
+    },
+    {
+      "id": "EP-02",
+      "titulo": "Adão, Eva, Caim e Abel",
+      "referencias": [
+        "Gn 2,4b–4,16"
+      ],
+      "foco": "Jardim, ruptura, consequências e reação de Caim. Conferir o que é dito sobre o fruto, as ofertas e a proteção de Caim após a sentença.",
+      "continuidade": "Da história dos irmãos para as linhagens e a expansão da comunidade.",
+      "status": "planejado",
+      "revisao": null,
+      "materiais": [],
+      "cenas": [],
+      "problemas": [],
+      "historico": []
+    },
+    {
+      "id": "EP-03",
+      "titulo": "Os descendentes de Adão",
+      "referencias": [
+        "Gn 4,17–5,32"
+      ],
+      "foco": "Distinguir as linhagens de Caim e Set, os nomes semelhantes, os ofícios e as artes, Enoque na linhagem de Set e o lugar de Noé na genealogia.",
+      "continuidade": "Terminar na chegada de Noé, que assume o centro do próximo bloco.",
+      "status": "planejado",
+      "revisao": null,
+      "materiais": [],
+      "cenas": [],
+      "problemas": [],
+      "historico": []
+    },
+    {
+      "id": "EP-04",
+      "titulo": "Noé e a Arca",
+      "referencias": [
+        "Gn 6,1–7,5"
+      ],
+      "foco": "Explicar o que o relato diz sobre a violência, Noé e a decisão de construir a arca. Conferir as quantidades de animais e o contexto de cada instrução.",
+      "continuidade": "A preparação entrega a ação ao início do dilúvio. Ajustar o ponto de corte junto ao EP-05.",
+      "status": "planejado",
+      "revisao": null,
+      "materiais": [],
+      "cenas": [],
+      "problemas": [],
+      "historico": []
+    },
+    {
+      "id": "EP-05",
+      "titulo": "O Dilúvio",
+      "referencias": [
+        "Gn 7,6–9,17"
+      ],
+      "foco": "Inundação, recuo das águas, aves, saída e aliança. Distinguir os marcadores de tempo e reservar atenção às consequências após a arca.",
+      "continuidade": "A família de Noé dá passagem às gerações posteriores.",
+      "status": "planejado",
+      "revisao": null,
+      "materiais": [],
+      "cenas": [],
+      "problemas": [],
+      "historico": []
+    },
+    {
+      "id": "EP-06",
+      "titulo": "A Torre de Babel",
+      "referencias": [
+        "Gn 9,18–11,9, com foco em 11,1–9"
+      ],
+      "foco": "Avaliar o que resumir sobre a família de Noé e a lista de povos. Explicar a cidade, a busca por um nome e a dispersão. Situar a relação narrativa entre Gn 10 e 11.",
+      "continuidade": "Gn 11,10–32 oferece a passagem genealógica para Abrão em Gn 12, a pesquisar em bloco futuro.",
+      "status": "planejado",
+      "revisao": null,
+      "materiais": [],
+      "cenas": [],
+      "problemas": [],
+      "historico": []
+    }
+  ]
+}

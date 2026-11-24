@@ -4,6 +4,7 @@ Projeto audiovisual sobre toda a Bíblia católica, desenvolvido em colaboraçã
 por Codex, Claude Code e Google Antigravity.
 
 - [Identidade editorial e planejamento](docs/editorial/README.md)
+- [Central de produção e roteiro de testes](docs/producao/central.md)
 - [Pesquisa de produção audiovisual](docs/producao/README.md)
 - [Protocolo obrigatório](docs/skills/00-sempre.md)
 - [Estado atual e próximo passo](docs/HANDOFF.md)

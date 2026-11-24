@@ -49,6 +49,12 @@
       "responsavel": null,
       "status": "bloqueada",
       "bloqueio": "Aguardando aprovação em EF-007."
+    },
+    {
+      "id": "EF-009",
+      "titulo": "Construir e validar a central de produção",
+      "responsavel": "Codex",
+      "status": "concluida"
     }
   ]
 }

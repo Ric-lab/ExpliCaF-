@@ -13,3 +13,9 @@
   gatilhos, a dependência entre jobs e o diretório do artefato foram conferidos.
 - Custo · A página do repositório confirma visibilidade pública. Os jobs
   usam runners padrão e são condicionados à visibilidade pública.
+- Referência publicada · Commit inicial `42ac0ff` em `main` e `preview`.
+- GitHub Actions · Testes aprovados em [main](https://github.com/Ric-lab/ExpliCaF-/actions/runs/45411962171)
+  e [preview](https://github.com/Ric-lab/ExpliCaF-/actions/runs/45411962067).
+- A [primeira execução da prévia](https://github.com/Ric-lab/ExpliCaF-/actions/runs/45411962041)
+  passou pelos testes e parou em `configure-pages` com `Not Found`.
+  EF-002 registra a configuração administrativa pendente.

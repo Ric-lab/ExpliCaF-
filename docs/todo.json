@@ -10,7 +10,8 @@
       "id": "EF-002",
       "titulo": "Ativar GitHub Pages e confirmar a primeira publicação da prévia",
       "responsavel": null,
-      "status": "a_fazer"
+      "status": "bloqueada",
+      "bloqueio": "Aguardando configuração administrativa do GitHub Pages."
     },
     {
       "id": "EF-003",

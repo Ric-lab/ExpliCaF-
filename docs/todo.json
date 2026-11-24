@@ -1,0 +1,22 @@
+{
+  "tarefas": [
+    {
+      "id": "EF-001",
+      "titulo": "Criar a infraestrutura colaborativa inicial",
+      "responsavel": "Codex",
+      "status": "concluida"
+    },
+    {
+      "id": "EF-002",
+      "titulo": "Ativar GitHub Pages e confirmar a primeira publicação da prévia",
+      "responsavel": null,
+      "status": "a_fazer"
+    },
+    {
+      "id": "EF-003",
+      "titulo": "Definir o escopo da próxima fase com o responsável pelo projeto",
+      "responsavel": null,
+      "status": "a_fazer"
+    }
+  ]
+}

@@ -17,6 +17,26 @@ precisam ser avaliadas separadamente.
 | HTML/CSS/SVG/Canvas + Playwright | Playwright Apache-2.0. Instalar browser e dependências; retém controle sobre a implementação. | CSS e SVG favorecem tipografia e vetores; Canvas favorece partículas e efeitos de pixels. Implementar captura com tempo explícito, carregamento de fontes, frame pacing, áudio e inspeção. WebCodecs fornece encode/decode de baixo nível e requer muxing próprio e verificação de suporte. Frágil como primeira rota em navegador de usuário. [Playwright](https://github.com/microsoft/playwright) · [WebCodecs no MDN](https://github.com/mdn/content/blob/main/files/en-us/web/api/webcodecs_api/index.md) |
 | Motion Canvas, Manim ou Blender | Motion Canvas e Manim Community MIT; Blender GPL. Cada um pede ambiente específico. | Alternativas de nicho para motion vetorial, diagramas e 3D. Motion Canvas usa TypeScript e canvas; Manim tem boa composição de diagramas; Blender amplia iluminação e câmera com maior custo de criação e render. Podem entregar clipes a incorporar pelo manifesto. [Motion Canvas](https://github.com/motion-canvas/motion-canvas) · [Manim](https://github.com/ManimCommunity/manim) · [Blender](https://github.com/blender/blender) |
 
+## Imagens, ilustrações e efeitos
+
+- **SVG/CSS original** · Primeira escolha para personagens estilizados,
+  mapas, cartelas e humor visual. Facilita paleta consistente, reuso dos
+  elementos e animação por camada. A elaboração de poses e expressões
+  ainda exige direção de arte.
+- **Geração de imagem nas ferramentas já disponíveis** · Adequada para
+  fundos ou ilustrações pontuais. Tratar cada saída como arquivo aprovado
+  com proveniência, termos aplicáveis, hash e revisão visual. Recursos e
+  limites da interface mudam por ferramenta e plano. O fluxo de produção
+  aceita o arquivo pronto sem automatizar a interface ou depender de API.
+- **ComfyUI com SDXL 1.0** · Alternativa para geração em lote com grafo,
+  versões e sementes registradas. Requer Python, pesos grandes, espaço e
+  tempo de inferência. CPU aumenta a espera, GPU depende da infraestrutura.
+  A licença CreativeML Open RAIL++-M do SDXL tem restrições de uso;
+  checkpoints, nós, LoRAs e fontes podem ter outros termos. A repetição
+  da semente ajuda, mas depende do ambiente. Não foi executado e não é
+  requisito do piloto. [ComfyUI](https://github.com/Comfy-Org/ComfyUI) ·
+  [Licença do SDXL](https://github.com/Stability-AI/generative-models/blob/main/model_licenses/LICENSE-SDXL1.0)
+
 ## Voz, legendas e recursos das IAs
 
 | Opção | Custo e direitos | Consequência operacional |
@@ -48,6 +68,20 @@ sintetizadores automatizados de API disponíveis. [Codex](https://github.com/ope
   agendada. Se um executor falhar, outro pode recuperar o manifesto e os
   ativos previamente aprovados. As cotas das três contas não estavam
   disponíveis para auditoria.
+- **Codespaces** · Alternativa de nuvem pelo navegador, com GitHub e
+  ambiente configurável. Free pessoal inclui 120 horas de computação
+  e 15 GB-mês; uma máquina de dois núcleos usa multiplicador 2, ou
+  cerca de 60 horas de relógio com a cota inteira nessa máquina.
+  Contas Pro pessoais têm 180 horas e 20 GB-mês; organizações não têm
+  essa cota gratuita. Excedente depende do faturamento da conta.
+  Só usar se o titular confirmar a cota e bloqueio de excedente.
+  [Cobrança e cotas](https://github.com/github/docs/blob/main/content/billing/concepts/product-billing/github-codespaces.md)
+- **Colab** · Possível para experimentos com GPU por notebook, mas a
+  FAQ comercial não pôde ser aberta. Capacidade, duração da sessão e
+  condições de automação ficaram sem verificação. Por depender de
+  sessão intermediária e capacidade eventual, fica fora do fluxo
+  proposto. [Ferramentas do Colab](https://github.com/googlecolab/colabtools) ·
+  [FAQ](https://research.google.com/colaboratory/faq.html)
 - **Actions** · Runners padrão em repositórios públicos são gratuitos
   para computação elegível. A tabela consultada mostra no plano Free
   500 MB de artefatos e 10 GB de cache por repositório. Em uso privado

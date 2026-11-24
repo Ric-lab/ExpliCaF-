@@ -15,7 +15,19 @@
     },
     {
       "id": "EF-003",
-      "titulo": "Definir o escopo da próxima fase com o responsável pelo projeto",
+      "titulo": "Estabelecer a identidade editorial e o planejamento inicial",
+      "responsavel": "Codex",
+      "status": "concluida"
+    },
+    {
+      "id": "EF-004",
+      "titulo": "Conferir edição católica de referência e condições de uso audiovisual",
+      "responsavel": null,
+      "status": "a_fazer"
+    },
+    {
+      "id": "EF-005",
+      "titulo": "Preparar fichas de pesquisa dos seis blocos e revisar o recorte provisório",
       "responsavel": null,
       "status": "a_fazer"
     }

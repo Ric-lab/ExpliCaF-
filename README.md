@@ -1,9 +1,9 @@
 # ExplicaFé
 
-Base colaborativa do ExplicaFé para Codex, Claude Code e Google Antigravity.
-A etapa inicial organiza a continuidade do trabalho. O sistema de produção
-de vídeos será definido em uma etapa futura.
+Projeto audiovisual sobre toda a Bíblia católica, desenvolvido em colaboração
+por Codex, Claude Code e Google Antigravity.
 
+- [Identidade editorial e planejamento](docs/editorial/README.md)
 - [Protocolo obrigatório](docs/skills/00-sempre.md)
 - [Estado atual e próximo passo](docs/HANDOFF.md)
 - [Lista de tarefas](docs/todo.json)

@@ -30,6 +30,25 @@
       "titulo": "Preparar fichas de pesquisa dos seis blocos e revisar o recorte provisório",
       "responsavel": null,
       "status": "a_fazer"
+    },
+    {
+      "id": "EF-006",
+      "titulo": "Pesquisar arquitetura audiovisual sem custo adicional e executar provas pequenas",
+      "responsavel": "Codex",
+      "status": "concluida"
+    },
+    {
+      "id": "EF-007",
+      "titulo": "Decidir sobre o piloto da arquitetura audiovisual",
+      "responsavel": null,
+      "status": "a_fazer"
+    },
+    {
+      "id": "EF-008",
+      "titulo": "Executar piloto audiovisual aprovado e validar em duas ferramentas",
+      "responsavel": null,
+      "status": "bloqueada",
+      "bloqueio": "Aguardando aprovação em EF-007."
     }
   ]
 }

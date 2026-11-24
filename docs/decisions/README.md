@@ -5,3 +5,4 @@ decisão, motivo, consequências e, quando necessário, referência à aprovaç�
 
 - [001 · GitHub como memória compartilhada](001-memoria-e-previa.md)
 - [002 · Identidade editorial e primeiro mapa de episódios](002-identidade-editorial.md)
+- [003 · Arquitetura de produção audiovisual](003-producao-audiovisual.md)
